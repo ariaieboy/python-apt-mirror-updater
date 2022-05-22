@@ -938,6 +938,16 @@ BUNDLED_RELEASES = [
         series='impish',
         version=decimal.Decimal('21.10'),
     ),
+       Release(
+        codename='Jammy Jellyfish',
+        created_date=datetime.date(2022, 4, 21),
+        distributor_id='ubuntu',
+        eol_date=datetime.date(2032, 4, 21),
+        is_lts=True,
+        release_date=datetime.date(2022, 4, 21),
+        series='jammy',
+        version=decimal.Decimal('22.04'),
+    ),
 ]
 
 # [[[end]]]
